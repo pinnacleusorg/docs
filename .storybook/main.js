@@ -4,7 +4,6 @@ const config = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
   ],
   framework: {
     name: "@storybook/html-vite",
@@ -14,5 +13,11 @@ const config = {
     autodocs: "tag",
     docsMode: true
   },
+  refs: {
+    "components": {
+      title: "Components",
+      url: "https://pinnacleusorg.github.io/components",
+    },
+  }
 };
 export default config;
